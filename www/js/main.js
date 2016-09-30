@@ -62,6 +62,7 @@ angular.module('emission.main', ['emission.main.recent',
 
   .state('root.main.goals', {
     url: '/goals',
+    abstract: true,
     views: {
       'main-goals': {
         templateUrl: 'templates/main-goals.html',
